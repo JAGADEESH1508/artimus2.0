@@ -714,31 +714,18 @@ video {
   margin-top: 2rem;
 }
 
-.more .row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 5rem;
+.box{
+  width: 500px;
+  height: 500px;
+  padding-bottom: 25px;
 }
 
-.more .row .tours {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  margin-bottom: 9rem;
-}
 
-.more .col .btn {
-  display: block;
-  text-align: center;
-}
 
-.more .tours h3 {
-  margin: 1rem 0;
-}
 
-.more img {
-  object-fit: cover;
-}
+
+
+
 
 @media (max-width: 768px) {
   .more .row {
